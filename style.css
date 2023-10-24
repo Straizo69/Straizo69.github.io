@@ -1,3 +1,4 @@
+/*Головна сторінка*/
 body {
     background-color: #f0f0f0; 
     margin: 0;
@@ -30,9 +31,61 @@ body {
 .navigation a:hover {
     background-color: #5da2c4;
 }
+/*Практичні */
+.dropdown1 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.dropdown1 .dropbtn1 {
+    background-color: #005522;
+    color: #fff;
+    padding: 16px 32px; /* Збільшено розмір кнопки */
+    border: none;
+    border-radius: 20px; /* Заокруглення кнопки */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dropdown1 .dropbtn1:hover {
+    background-color: #003311;
+    box-shadow: 0 4px 6px rgba(0, 51, 17, 0.2);
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #223344;
+    min-width: 160px; /* Збільшено розмір випадаючого списку */
+    border-radius: 10px; /* Заокруглення випадаючого списку */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown-content1 a {
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #33cc33;
+    font-size: 16px; /* Збільшено розмір тексту */
+}
+
+.dropdown-content1 a:hover {
+    background-color: #445544;
+}
+
+/*Практичне 1*/
 table {
     margin: 0 auto; 
-    width: 80%;
+    width: 85%;
     border-collapse: collapse;
     
 }
@@ -53,70 +106,124 @@ td {
 td:first-child {
     width: 5%; 
 }
+td:nth-child(2) {
+    width: 5%;
+}
+
 h2{
     text-align: center;
 }
-#uniqueBody{
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
+/*Лабораторні*/
+.dropdown {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    background-color: #005522;
+    color: #fff;
+    padding: 16px 32px; 
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dropdown .dropbtn:hover {
+    background-color: #003311;
+    box-shadow: 0 4px 6px rgba(0, 51, 17, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #223344;
+    min-width: 160px; 
+    border-radius: 10px; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #33cc33;
+    font-size: 16px; 
+}
+
+.dropdown-content a:hover {
+    background-color: #445544;
+}
+
+/*Лабораторна 1*/
+
+#uniqueBody {
+    background-color: #141414;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .registration-form {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
     max-width: 400px;
     width: 100%;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #262626;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .registration-form:hover {
-    background-color: #e0e0e0;
-    
+    background-color: #1a1a1a;
 }
 
 .form-field {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
 }
 
 .form-field:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-field > label {
     font-weight: bold;
     display: block;
+    color: #33cc33;
 }
 
 .form-field > input, .form-field > select {
-    padding: 12px;
+    padding: 10px;
     width: 100%;
-    border: 2px solid #33cc33; 
-    border-radius: 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
     outline: none;
-    transition: border-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-field > input:focus, .form-field > select:focus {
-    border-color: #009900; 
-}
-
-.form-field > select {
-    padding: 10px;
+    background-color: #444;
+    border-color: #33cc33;
 }
 
 .push-down {
@@ -125,16 +232,17 @@ h2{
 
 input[type="submit"] {
     border: none;
-    background-color: #009900; 
+    background-color: #33cc33; 
     padding: 12px 24px;
-    color: white;
+    color: #fff;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 input[type="submit"]:hover {
-    background-color: #006600; 
-    transform: translateY(10px); 
-    box-shadow: 0 4px 6px rgba(0, 102, 0, 0.2);
+    background-color: #009900; 
+    transform: translateY(5px); 
+    box-shadow: 0 4px 6px rgba(0, 153, 0, 0.2);
 }
+
