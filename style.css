@@ -1,3 +1,4 @@
+/*Головна сторінка*/
 body {
     background-color: #f0f0f0; 
     margin: 0;
@@ -30,9 +31,61 @@ body {
 .navigation a:hover {
     background-color: #5da2c4;
 }
+/*Практичні */
+.dropdown1 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.dropdown1 .dropbtn1 {
+    background-color: #005522;
+    color: #fff;
+    padding: 16px 32px; /* Збільшено розмір кнопки */
+    border: none;
+    border-radius: 20px; /* Заокруглення кнопки */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dropdown1 .dropbtn1:hover {
+    background-color: #003311;
+    box-shadow: 0 4px 6px rgba(0, 51, 17, 0.2);
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #223344;
+    min-width: 160px; /* Збільшено розмір випадаючого списку */
+    border-radius: 10px; /* Заокруглення випадаючого списку */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown-content1 a {
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #33cc33;
+    font-size: 16px; /* Збільшено розмір тексту */
+}
+
+.dropdown-content1 a:hover {
+    background-color: #445544;
+}
+
+/*Практичне 1*/
 table {
     margin: 0 auto; 
-    width: 80%;
+    width: 85%;
     border-collapse: collapse;
     
 }
@@ -53,9 +106,66 @@ td {
 td:first-child {
     width: 5%; 
 }
+td:nth-child(2) {
+    width: 5%;
+}
+
 h2{
     text-align: center;
 }
+/*Лабораторні*/
+.dropdown {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    background-color: #005522;
+    color: #fff;
+    padding: 16px 32px; 
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dropdown .dropbtn:hover {
+    background-color: #003311;
+    box-shadow: 0 4px 6px rgba(0, 51, 17, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #223344;
+    min-width: 160px; 
+    border-radius: 10px; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #33cc33;
+    font-size: 16px; 
+}
+
+.dropdown-content a:hover {
+    background-color: #445544;
+}
+
+/*Лабораторна 1*/
+
 #uniqueBody {
     background-color: #141414;
     font-family: 'Arial', sans-serif;
