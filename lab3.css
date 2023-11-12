@@ -3,12 +3,12 @@
 {
     font-size:10px;
 } */
-/* body {
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     height: 100%;
     width: 100%;
-  } */
+  }
 .youtube_logo
 {
     height: 20px;
@@ -75,13 +75,14 @@ header
 {
     height: calc(100vh - 55px);
     display:flex;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
 }
 aside{
     height: 100%;
     width: 300px;
     background-color: white;
     overflow-y: auto;
+    padding: 35px 15px;
 }
 nav
 {
@@ -149,7 +150,7 @@ nav p {
 main{
     width: 100%;
     height: 100%;
-    /* padding: 35px 15px; */
+    padding: 35px 15px;
     border: 1px solid #ddd;
     overflow-y: auto;
 } 
@@ -157,11 +158,10 @@ main{
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }   
-.videoо {
-    
+ .videoо {
     width: 330px;
     margin-bottom: 40px;
     cursor: pointer;
@@ -169,59 +169,55 @@ main{
 .video{
     width:100%;
     height: 190px;
-    margin-top:120px;
+    margin-bottom: 12px;
+   
+   
 }
 .video .video-miranda{
     height: 100%;
     width: 100%;
-    margin-right: 12px;
-    
+    border-radius: 15px 15px 15px 15px;   
 }
-.infomation{
+
+.information{
     display: flex;
 }
-.avaaaa .ava_1{
+.ava_youtube img{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    margin-top: 285px;
-
-    
+    margin-right: 12px;
 }
 .titlee{
     display: flex;
     flex-direction: column;
-    margin-top: 55px;
-    margin-left: 50px;
-    
-    
-   
-    
+    /* margin-left: 50px;      */
 }    
 .titlee a{
     text-decoration: none;
-    margin-left: 10px;
-    
-    
+    /* margin-left: 10px;    */
 }
 
 .video-title{
-    color:rgb(3,3,3);
+    color:rgb(3, 3, 3);
     font-size: 1.5rem;
-    max-width: 270px;
-    font-weight: 500;
-    line-height: 1.5em;
-    margin-bottom:0 ;
+    max-width: 280px;
+    font-weight: 200;
+    line-height: 1.6rem;
+    margin-bottom:0px ;
     overflow: hidden;
     display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
     
 }
-.video-creator .video-views{
-    color: rgb(96,96,96);
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-weight: 500;
+.video-creator, .title span{
+    color: rgb(96, 96, 96);
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 200;
 }
 .video-creator:hover{
     color:black;
-}
+} 
