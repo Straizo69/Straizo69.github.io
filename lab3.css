@@ -109,8 +109,7 @@ nav
     background-color: rgba(0,0,0,0.09);
 }
 /* .container_for_videos .nav-link:hover  {
-    background-color: transparent; /* Зробіть фон прозорим для елементів в контейнері для відео */
-
+    background-color: transparent; */
 
 .nav-link span
 {
@@ -142,7 +141,7 @@ nav p {
     color: #000;
     padding: 5px 10px;
 }
-.ava_k{
+nav .ava_k{
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -220,4 +219,4 @@ main{
 }
 .video-creator:hover{
     color:black;
-} 
+}    
