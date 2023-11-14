@@ -1,7 +1,7 @@
 
 /* html
 {
-    font-size:10px;
+    font-size:10px ;
 } */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -187,11 +187,11 @@ main{
 .titlee{
     display: flex;
     flex-direction: column;
-    /* margin-left: 50px;      */
+   
 }    
 .titlee a{
     text-decoration: none;
-    /* margin-left: 10px;    */
+    
 }
 
 .video-title{
@@ -238,4 +238,3 @@ main{
 .genre-navigation a:hover {
     background-color: #777; 
 }
-
