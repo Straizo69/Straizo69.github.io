@@ -156,15 +156,19 @@ main{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-}   
+    row-gap: 40px; /* Додайте проміжок між рядами відео */
+    column-gap: 40px; /* Додайте проміжок між відео в межах ряду */
+}
+    /* margin-bottom: 20px; */
+   
  .videoо {
-    width: 330px;
-    margin-bottom: 40px;
+    width: 300px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 .video{
     width:100%;
-    height: 190px;
+    height: 200px;
     margin-bottom: 12px;
    
    
@@ -197,7 +201,7 @@ main{
 .video-title{
     color:rgb(3, 3, 3);
     font-size: 1.5rem;
-    max-width: 280px;
+    max-width: 320px;
     font-weight: 200;
     line-height: 1.6rem;
     margin-bottom:0px ;
@@ -219,9 +223,9 @@ main{
 }    
 
 .genre-navigation {
-    padding: 10px;
+    padding: 0;
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 15px; 
 }
 
 .genre-navigation a {
@@ -232,9 +236,9 @@ main{
     margin: 0 5px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    background-color: #666; 
+    background-color: #888; 
 }
 
 .genre-navigation a:hover {
-    background-color: #777; 
+    background-color: #555; 
 }
