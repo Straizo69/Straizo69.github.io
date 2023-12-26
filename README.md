@@ -1,5 +1,3 @@
-My personal site -  https://straizo69.github.io/ 
-# Straizo69.github.io
 <a href="https://straizo69.github.io/" style="background-color: #4CAF50; 
   border: none;
   color: white;
