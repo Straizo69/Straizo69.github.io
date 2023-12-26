@@ -156,8 +156,8 @@ main{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 40px; /* Додайте проміжок між рядами відео */
-    column-gap: 40px; /* Додайте проміжок між відео в межах ряду */
+    row-gap: 30px; /* Додайте проміжок між рядами відео */
+    column-gap: 30px; /* Додайте проміжок між відео в межах ряду */
 }
     /* margin-bottom: 20px; */
    

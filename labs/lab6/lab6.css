@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: aqua;
+  }
+  
+  .pokemon-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 300px;
+  }
+  
+  .pokemon {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transition: all 1s ease-in-out;
+  }
+  
+  .pokemon img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pokemon1 {
+    left: 0;
+  }
+  
+  .pokemon2 {
+    right: 0;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: 50px; 
+  } 
+  .shine {
+    position: absolute;
+    width: 200px; /* Розмір сяйва може бути змінений за вашим вибором */
+    height: 200px; /* Розмір сяйва може бути змінений за вашим вибором */
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgb(224, 216, 127);
+    opacity: 0;
+    animation: glow 2s ease-in-out infinite;
+    top: 1%;
+    right: 20%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes glow {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+  }
+  
