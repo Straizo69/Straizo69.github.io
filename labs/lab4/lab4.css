@@ -24,9 +24,6 @@ body {
     align-self: end;
 }
 .grid-item {
-    /* grid-column: span 1;
-    display: flex;
-    align-items: center; */
     margin-bottom: 0;
     align-self: end;
    
