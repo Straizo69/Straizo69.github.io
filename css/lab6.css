@@ -43,10 +43,10 @@ body {
   } 
   .shine {
     position: absolute;
-    width: 200px; /* Розмір сяйва може бути змінений за вашим вибором */
-    height: 200px; /* Розмір сяйва може бути змінений за вашим вибором */
+    width: 200px; 
+    height: 200px; 
     border-radius: 50%;
-    box-shadow: 0 0 20px 10px rgb(224, 216, 127);
+    box-shadow: 0 0 20px 10px rgb(227, 219, 131);
     opacity: 0;
     animation: glow 2s ease-in-out infinite;
     top: 1%;
