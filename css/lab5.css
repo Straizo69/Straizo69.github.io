@@ -273,7 +273,7 @@
   position: absolute;
   width: 30px;
   height: 30px;
-  top: 51px;
+  margin-top:51px;
   left: 661px;
 }
 .home .group {
@@ -495,30 +495,6 @@
   letter-spacing: 0;
   line-height: 60px;
   white-space: nowrap;
-}
-.home .vector-3 {
-  position: absolute;
-  width: 858px;
-  height: 1px;
-  top: 1282px;
-  left: 146px;
-  object-fit: cover;
-}
-.home .vector-4 {
-  position: absolute;
-  width: 858px;
-  height: 1px;
-  top: 1528px;
-  left: 146px;
-  object-fit: cover;
-}
-.home .vector-5 {
-  position: absolute;
-  width: 858px;
-  height: 1px;
-  top: 1776px;
-  left: 146px;
-  object-fit: cover;
 }
 .home .first-1 {
   position: absolute;
